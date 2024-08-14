@@ -9,12 +9,12 @@ pipeline {
 					echo "Build"
 				}
 			}
-			tage('Test') {
+			stage('Test') {
 				steps {
 					echo "Test"
 				}
 			}
-			tage('Integration Test') {
+			stage('Integration Test') {
 				steps {
 					echo "Integration Test"	
 				}
