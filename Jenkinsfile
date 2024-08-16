@@ -30,9 +30,9 @@ pipeline {
 				sh "mvn clean complie"
 			}
 		}
-		stage('Test') {
+		stage('test') {
 			steps {
-				sh "mvn Test"
+				sh "mvn test"
 			}
 		}
 		stage('Integration Test') {
