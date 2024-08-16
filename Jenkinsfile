@@ -25,7 +25,7 @@ pipeline {
 				echo "BUILD_URL - $env.BUILD_URL"
 			}
 		}
-		stage ('Compile') {
+		stage ('compile') {
 			steps {
 				sh "mvn clean complie"
 			}
